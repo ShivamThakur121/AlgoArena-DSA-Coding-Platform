@@ -1,4 +1,4 @@
-include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 bool isIsomorphic(string s, string t) {
