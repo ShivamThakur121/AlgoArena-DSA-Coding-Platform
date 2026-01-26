@@ -4,6 +4,7 @@ An end‑to‑end **DSA Coding Platform** built using the **MERN stack** that he
 
 ---
 
+
 ## ✨ Features
 
 * 🔐 User Authentication (Login / Signup)
@@ -92,6 +93,13 @@ Use this prompt in **DALL·E / Midjourney / Leonardo AI**:
 > *"A modern, clean GitHub banner for a DSA Coding Platform web app, showing a laptop with code editor on screen, algorithm flow diagrams, competitive programming vibe, dark mode UI, neon blue and purple accents, minimal flat design, professional developer aesthetic"*
 
 ---
+📸 Screenshots
+
+![Dashboard](screenshots/dashboard.png)
+![Register Page](screenshots/login.png)
+![Problem List](screenshots/problem-list.png)
+![Admin Penel](screenshots/code-editor.png)
+
 
 ## 🎯 Future Improvements
 
