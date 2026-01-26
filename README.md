@@ -1,9 +1,12 @@
 # 🚀 DSA Coding Platform (MERN Stack)
 
 An end‑to‑end **DSA Coding Platform** built using the **MERN stack** that helps users practice data structures & algorithms, write code, and track progress — all in one place.
-
 ---
+📸 Screenshots
 
+![Dashboard](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/6436de015f13c7145f8cd6a20861c666bfafd2e9/Screenshot%20(308).png)
+![Register Page](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/6436de015f13c7145f8cd6a20861c666bfafd2e9/Screenshot%20(310).png)
+![Admin Penel](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/6436de015f13c7145f8cd6a20861c666bfafd2e9/Screenshot%20(309).png)
 
 ## ✨ Features
 
@@ -93,13 +96,6 @@ Use this prompt in **DALL·E / Midjourney / Leonardo AI**:
 > *"A modern, clean GitHub banner for a DSA Coding Platform web app, showing a laptop with code editor on screen, algorithm flow diagrams, competitive programming vibe, dark mode UI, neon blue and purple accents, minimal flat design, professional developer aesthetic"*
 
 ---
-📸 Screenshots
-
-![Dashboard](screenshots/dashboard.png)
-![Register Page](screenshots/login.png)
-![Problem List](screenshots/problem-list.png)
-![Admin Penel](screenshots/code-editor.png)
-
 
 ## 🎯 Future Improvements
 
