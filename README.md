@@ -117,7 +117,7 @@ Pull requests are welcome. Feel free to open an issue for suggestions or improve
 If you like this project or want to collaborate:
 
 * GitHub: **ShivamThakur121**
-* Email: **[your-email@example.com](mailto:shivamkumr.chk1234@gmail.com)**
+* Email: **(mailto:shivamkumr.chk1234@gmail.com)**
 
 ---
 
