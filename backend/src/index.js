@@ -14,7 +14,10 @@ const cors = require('cors')
 // console.log("Hello")
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+origin: [
+      "http://localhost:5173",
+      "https://dsa-coding-platform.vercel.app"
+    ],
     credentials: true 
 }))
 
