@@ -13,10 +13,15 @@ const cors = require('cors')
 
 // console.log("Hello")
 
-cors({
-  origin: "https://dsacodingplatfm121.vercel.app",
-  credentials: true
-})
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://dsacodingplatfm121.vercel.app",
+    ],
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 app.use(cookieParser()); 
