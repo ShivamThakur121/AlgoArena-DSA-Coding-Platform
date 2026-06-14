@@ -14,7 +14,7 @@ const cors = require('cors')
 // console.log("Hello")
 
 cors({
-  origin: "https://dsacodingplatfm121.vercel.app/signup",
+  origin: "https://dsacodingplatfm121.vercel.app",
   credentials: true
 })
 
