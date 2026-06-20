@@ -6,7 +6,7 @@ const axiosClient = axios.create({
     headers: {
         "Content-Type": "application/json"
     }
-    console.log("API URL =", "https://algoarena-dsa-coding-platform.onrender.com");
+   
 });
 
 export default axiosClient;
