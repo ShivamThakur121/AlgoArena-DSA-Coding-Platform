@@ -34,7 +34,11 @@ const register = async (req,res)=>{
     })
     }
     catch(err){
-        res.status(400).send("Error: "+err);
+        console.log("REGISTER ERROR:", err);
+
+        res.status(400).json({
+        message: err.message
+        });
     }
 }
 

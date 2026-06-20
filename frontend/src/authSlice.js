@@ -7,8 +7,12 @@ export const registerUser = createAsyncThunk(
     try {
     const response =  await axiosClient.post('/user/register', userData);
     return response.data.user;
-    } catch (error) {
-      return rejectWithValue(error);
+    }catch (error) {
+      return rejectWithValue(
+        error.response?.data?.message ||
+        error.response?.data ||
+        error.message
+      );
     }
   }
 );
@@ -20,8 +24,12 @@ export const loginUser = createAsyncThunk(
     try {
       const response = await axiosClient.post('/user/login', credentials);
       return response.data.user;
-    } catch (error) {
-      return rejectWithValue(error);
+    }catch (error) {
+      return rejectWithValue(
+        error.response?.data?.message ||
+        error.response?.data ||
+        error.message
+      );
     }
   }
 );
@@ -47,8 +55,12 @@ export const logoutUser = createAsyncThunk(
     try {
       await axiosClient.post('/user/logout');
       return null;
-    } catch (error) {
-      return rejectWithValue(error);
+    }catch (error) {
+      return rejectWithValue(
+        error.response?.data?.message ||
+        error.response?.data ||
+        error.message
+      );
     }
   }
 );
@@ -66,10 +78,6 @@ const authSlice = createSlice({
   extraReducers: (builder) => {
     builder
       // Register User Cases
-      .addCase(registerUser.pending, (state) => {
-        state.loading = true;
-        state.error = null;
-      })
       .addCase(registerUser.fulfilled, (state, action) => {
         state.loading = false;
         state.isAuthenticated = !!action.payload;
@@ -77,9 +85,9 @@ const authSlice = createSlice({
       })
       .addCase(registerUser.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload?.message || 'Something went wrong';
-        state.isAuthenticated = false;
-        state.user = null;
+        state.error = action.payload || 'Something went wrong';
+        // state.isAuthenticated = false;
+        // state.user = null;
       })
   
       // Login User Cases
