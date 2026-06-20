@@ -1,17 +1,11 @@
-import axios from "axios"
+import axios from "axios";
 
-const axiosClient =  axios.create({
-<<<<<<< HEAD
-    baseURL: 'https://algoarena-dsa-coding-platform.onrender.com',
-=======
-    baseURL: 'http://localhost:5000/',
->>>>>>> 3f69999 (Updated project files)
+const axiosClient = axios.create({
+    baseURL: import.meta.env.VITE_API_URL,
     withCredentials: true,
     headers: {
-        'Content-Type': 'application/json'
+        "Content-Type": "application/json"
     }
 });
 
-
 export default axiosClient;
-
