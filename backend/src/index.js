@@ -16,7 +16,7 @@ const cors = require('cors')
 app.use(
   cors({
     origin: [
-      "https://algoarena-coding-platformm.vercel.app",
+      "https://algoarena-coding-platfor.vercel.app/",
     ],
     credentials: true,
   })
