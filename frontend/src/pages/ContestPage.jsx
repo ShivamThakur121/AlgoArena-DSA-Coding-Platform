@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
 import { logoutUser } from '../authSlice';
+import { CosmicStyles, CosmicBackground, CursorSmoke } from '../components/CosmicTheme';
+import { Plus, Edit, Trash2, Video, Sparkles, ChevronRight } from 'lucide-react';
 
 // ─── Canvas smoke cursor ──────────────────────────────────────────────────────
 function SmokeCanvas() {
@@ -262,8 +264,9 @@ function ContestPage() {
     <div className="min-h-screen relative overflow-x-hidden"
          style={{ background:'linear-gradient(135deg,#020617 0%,#0d1224 50%,#130b2e 100%)' }}>
 
-      <SmokeCanvas />
-      <NebulaDeco />
+      <CosmicStyles />
+      <CosmicBackground />
+      <CursorSmoke />
 
       {/* Stars */}
       <div className="fixed inset-0 z-0 pointer-events-none">

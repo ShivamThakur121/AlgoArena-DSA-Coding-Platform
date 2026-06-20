@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Plus, Edit, Trash2, Video, Sparkles, ChevronRight } from 'lucide-react';
 import { NavLink } from 'react-router';
 import { CosmicStyles, CosmicBackground, CursorSmoke } from '../components/CosmicTheme';
-
+ 
 // Per-action color language. Each theme drives the card's gradient border,
 // ambient glow, icon treatment, and button — so "delete" reads as risk (rose)
 // the same way "create" reads as growth (emerald) at a glance.

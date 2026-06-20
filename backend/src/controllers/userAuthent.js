@@ -42,35 +42,6 @@ const register = async (req,res)=>{
     }
 }
 
-// const register = async (req, res) => {
-//   try {
-//     console.log("REGISTER BODY:", req.body);
-
-//     const hashedPassword = await bcrypt.hash(req.body.password, 10);
-
-//     const user = await User.create({
-//       firstName: req.body.firstName,
-//       emailId: req.body.emailId,
-//       password: hashedPassword,
-//       role: "user",
-//     });
-
-//     console.log("USER CREATED:", user);
-
-//     res.status(201).json({
-//       user: {
-//         _id: user._id,
-//         firstName: user.firstName,
-//         emailId: user.emailId,
-//         role: user.role,
-//       },
-//     });
-//   } catch (err) {
-//     console.error("REGISTER ERROR:", err);
-//     res.status(400).json({ message: err.message });
-//   }
-// };
-
 
 const login = async (req,res)=>{
 

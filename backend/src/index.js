@@ -17,7 +17,6 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://algoarenacodingptm.vercel.app",
     ],
     credentials: true,
   })
@@ -51,4 +50,3 @@ const InitalizeConnection = async ()=>{
 
 
 InitalizeConnection();
-
