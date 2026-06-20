@@ -2,9 +2,9 @@ const { createClient } = require('redis');
 
 const redisClient = createClient({
     username: 'default',
-    password: 'Vw6oyGRVN01gAg7dFiVrjzkUHlqIfoGL',
+    password: process.env.REDIS_PASS,
     socket: {
-        host: 'debonair-auric-spot-33541.db.redis.io',
+        host: process.env.REDIS_HOST,
         port: 14070
     }
 });
