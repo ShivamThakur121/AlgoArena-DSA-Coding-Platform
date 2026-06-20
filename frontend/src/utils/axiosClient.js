@@ -3,7 +3,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://algoarena-dsa-coding-platform.onrender.com",
   withCredentials: true,
 });
 
@@ -17,4 +17,4 @@ axiosClient.interceptors.request.use((config) => {
   return config;
 });
 
-export default axiosClient;
+export default axiosClient; 
