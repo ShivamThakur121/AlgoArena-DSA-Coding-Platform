@@ -1,5 +1,4 @@
-#🚀 AlgoArena - DSA Coding Platform
-
+🚀 AlgoArena - DSA Coding Platform
 
 
 🌐 Live Demo:
@@ -11,68 +10,68 @@ AlgoArena is a full-stack DSA Coding Platform designed for students and develope
 Home Page
 ![Home Page](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/70f8b82bf2917ee50bba174e08b215d1ceacee81/Home_Page.png)
 
-Contest
-![Contest](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/70f8b82bf2917ee50bba174e08b215d1ceacee81/Contest.png)
-
 Code Editor
 ![Editor](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/70f8b82bf2917ee50bba174e08b215d1ceacee81/Brief_style_templat.png)
+
+Contest
+![Contest](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/70f8b82bf2917ee50bba174e08b215d1ceacee81/Contest.png)
 
 Admin Panel
 ![Admin_Panel](https://github.com/ShivamThakur121/AlgoArena-DSA-Coding-Platform/blob/70f8b82bf2917ee50bba174e08b215d1ceacee81/Admin_Panel.png)
 
 User Dashboard
 
-##✨ Features
-###👤 Authentication System
+✨ Features
+👤 Authentication System
 User Registration
 Secure Login & Logout
 JWT Authentication
 Protected Routes
 
-###💻 Online Code Editor
+💻 Online Code Editor
 Monaco Editor Integration
 Syntax Highlighting
 Multiple Programming Languages
 Custom Input Support
 
-###📚 DSA Problem Library
+📚 DSA Problem Library
 Easy, Medium & Hard Problems
 Detailed Problem Statements
 Constraints & Examples
 Topic-wise Categorization
 
-###⚡ Online Judge
+⚡ Online Judge
 Run Code Instantly
 Custom Test Cases
 Execution Time Tracking
 Output Validation
 
-###🤖 AI Coding Assistant
+🤖 AI Coding Assistant
 AI-powered Problem Guidance
 Hint Generation
 Doubt Solving
 Code Explanation
-###📊 User Dashboard
+📊 User Dashboard
 Solved Problems Tracking
 Progress Analytics
 Submission History
 Performance Insights
 
-###🎨 Modern UI
+🎨 Modern UI
 Responsive Design
 Smooth Animations
 Interactive User Experience 
 Mobile Friendly
 
-###🛠️ Tech Stack
+🛠️ Tech Stack
 Frontend- React.js, Tailwind CSS, Redux Toolkit, React Router, Axios, Monaco Editor,
 Backend, Node.js, Express.js, MongoDB, Mongoose, Redis, JWT Authentication
 
-### Deployment
+ Deployment
 Frontend: Vercel
 Backend: Render
 
-### 📂 Project Structure
+ 📂 Project Structure
 AlgoArena/
 │
 ├── frontend/
@@ -116,6 +115,7 @@ JWT_KEY=your_jwt_secret
 REDIS_URL=your_redis_url
 
 FRONTEND_URL=https://algoarena-coding-platfor.vercel.app
+
 🚀 Deployment
 Frontend (Vercel)
 npm run build
